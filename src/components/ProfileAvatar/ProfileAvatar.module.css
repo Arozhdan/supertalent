@@ -1,0 +1,29 @@
+.wrapper {
+  @apply flex max-w-[136px] flex-col items-center justify-center;
+}
+.wrapper > * {
+  @apply flex-shrink-0;
+}
+.imageContainer {
+  @apply flex h-[102px] w-[102px] items-center justify-center overflow-hidden rounded-full;
+  background: linear-gradient(
+    rgb(99, 105, 209) 0%,
+    rgb(230, 39, 93) 51.04%,
+    rgb(255, 155, 84) 100%
+  );
+}
+.image {
+  @apply h-24 w-24 overflow-hidden rounded-full bg-white p-0.5;
+}
+.image img {
+  @apply h-full w-full rounded-full object-cover;
+}
+.info {
+  @apply mt-4 flex flex-col items-center justify-center;
+}
+.name {
+  @apply text-center text-xl font-bold text-dark;
+}
+.role {
+  @apply text-center text-sm text-body;
+}

@@ -1,0 +1,65 @@
+.Paper {
+  @apply rounded-xl p-28;
+}
+.white {
+  @apply bg-white;
+}
+.glass {
+  @apply relative overflow-hidden border-2 border-secondary-light/20;
+}
+
+.blurTopLeft {
+  width: 860px;
+  height: 860px;
+  position: absolute;
+  left: -182px;
+  top: -486px;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(173, 252, 249, 0.6) 0%,
+    rgba(71, 128, 128, 0) 100%
+  );
+  opacity: 0.4;
+}
+
+.blurTopRight {
+  width: 860px;
+  height: 860px;
+  position: absolute;
+  right: -428px;
+  top: -560px;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(230, 39, 93, 0.6) 0%,
+    rgba(125, 10, 42, 0) 100%
+  );
+  opacity: 0.4;
+}
+
+.blurBottomLeft {
+  width: 860px;
+  height: 860px;
+  position: absolute;
+  left: -376px;
+  bottom: -632px;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(230, 39, 93, 0.6) 0%,
+    rgba(125, 10, 42, 0) 100%
+  );
+  opacity: 0.4;
+}
+
+.blurBottomRight {
+  width: 860px;
+  height: 860px;
+  position: absolute;
+  right: -432px;
+  bottom: -514px;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(230, 39, 93, 0.6) 0%,
+    rgba(125, 10, 42, 0) 100%
+  );
+  opacity: 0.4;
+}

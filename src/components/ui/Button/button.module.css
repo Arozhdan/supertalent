@@ -1,0 +1,16 @@
+.button {
+  @apply inline-block whitespace-nowrap rounded-lg px-12 py-4 text-lg font-black text-white;
+  @apply transition duration-200 ease-out hover:brightness-90;
+}
+.small {
+  @apply text-base;
+}
+.primary {
+  @apply bg-primary;
+}
+.secondary {
+  @apply bg-secondary;
+}
+.dark {
+  @apply bg-dark;
+}

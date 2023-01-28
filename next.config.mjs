@@ -14,5 +14,19 @@ const config = {
     locales: ["en"],
     defaultLocale: "en",
   },
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "cdn.supertalent.io",
+        pathname: "/static/media/*",
+      },
+      {
+        protocol: "https",
+        hostname: "images.unsplash.com",
+        pathname: "/photo-*",
+      },
+    ],
+  },
 };
 export default config;

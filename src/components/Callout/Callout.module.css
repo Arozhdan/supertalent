@@ -1,0 +1,6 @@
+.callout {
+  @apply flex items-center justify-between rounded-lg bg-cyan-200 py-10 px-16;
+}
+.callout * + * {
+  @apply ml-14;
+}

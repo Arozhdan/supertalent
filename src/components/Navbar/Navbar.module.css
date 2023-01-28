@@ -1,0 +1,14 @@
+.navWrapper {
+  @apply fixed z-50 flex w-full justify-center  bg-gradient-to-b from-secondary-dark via-secondary-dark to-transparent pt-6;
+}
+.nav {
+  @apply flex max-w-7xl items-center justify-between rounded-lg
+  bg-secondary py-3 px-4 lg:px-8 xl:px-12;
+  width: calc(100vw - 48px);
+}
+.nav > * {
+  @apply flex-shrink-0;
+}
+.middle {
+  @apply hidden flex-grow items-center justify-center gap-12 lg:flex;
+}

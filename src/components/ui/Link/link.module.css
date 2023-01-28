@@ -1,0 +1,35 @@
+.button {
+  @apply whitespace-nowrap rounded-lg px-12 py-4 text-base font-black text-white;
+  @apply transition duration-200 ease-out hover:brightness-90;
+}
+.button.primary {
+  @apply bg-primary;
+}
+.button.secondary {
+  @apply bg-secondary;
+}
+.button.dark {
+  @apply bg-dark hover:bg-opacity-80;
+}
+
+.link {
+  @apply font-black text-white;
+}
+
+.link-colored {
+  @apply text-xl font-black tracking-tighter;
+}
+
+.link-colored.primary {
+  @apply text-primary;
+}
+.link-colored.secondary {
+  @apply text-secondary;
+}
+.link-colored.dark {
+  @apply text-dark;
+}
+
+.underlined {
+  @apply font-black text-secondary underline;
+}

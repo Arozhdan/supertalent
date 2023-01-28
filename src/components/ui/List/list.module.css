@@ -1,0 +1,12 @@
+.list {
+  @apply my-6;
+}
+.listItem {
+  @apply flex flex-shrink-0 items-start;
+}
+.listItem:not(:first-child) {
+  @apply mt-2;
+}
+.icon {
+  @apply mr-4 h-6 w-6 flex-shrink-0 text-green-700;
+}

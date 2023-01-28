@@ -1,0 +1,42 @@
+.heading {
+  @apply font-black tracking-tight;
+}
+.heading:not(:first-child) {
+  @apply mt-6;
+}
+
+.h1 {
+  @apply text-6xl;
+}
+.h1:not(:last-child) {
+  @apply mb-10;
+}
+.h2 {
+  @apply text-4xl;
+}
+.h2:not(:last-child) {
+  @apply mb-8;
+}
+
+.h3 {
+  @apply text-2xl;
+}
+.h3:not(:last-child) {
+  @apply mb-6;
+}
+
+.h4 {
+  @apply text-xl;
+}
+.h4:not(:last-child) {
+  @apply mb-6;
+}
+
+.caption {
+  @apply font-black;
+}
+
+.paragraph a {
+  @apply border-secondary font-bold text-secondary underline;
+  text-decoration-thickness: 2px;
+}

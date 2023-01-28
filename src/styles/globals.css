@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  @apply text-lg text-body;
+}
+b,
+strong {
+  @apply font-bold text-black;
+}
+.container {
+  max-width: 1280px;
+}

@@ -1,0 +1,17 @@
+.homepage {
+  @apply bg-secondary-dark;
+  min-height: 10000px;
+}
+.homepage header {
+  @apply pt-64 pb-32;
+  background-image: url("https://cdn.supertalent.io/static/media/web-great-talent-at-your-fingertips-c56160fb8e5e1009-1132.webp");
+  background-size: 590px;
+  background-repeat: no-repeat;
+  background-position: 80% 45%;
+}
+
+@media screen and (max-width: 1024px) {
+  .homepage header {
+    background: none;
+  }
+}
